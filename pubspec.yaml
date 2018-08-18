@@ -3,6 +3,8 @@ version: 0.1.2+1
 author: Steven Roose <stevenroose@gmail.com>
 description: A library for event handling in Dart.
 homepage: https://github.com/stevenroose/dart-events
+environment:
+  sdk: ">=2.0.0-dev.61.0 <3.0.0"
 dependencies:
   stevenroose: ">= 0.1.1"
 dev_dependencies:
