@@ -6,9 +6,13 @@ homepage: https://github.com/stevenroose/dart-events
 environment:
   sdk: ">=2.0.0-dev.61.0 <3.0.0"
 dependencies:
-  stevenroose: ">= 0.1.1"
+  stevenroose: ^0.1.1
 dev_dependencies:
   browser: any
   unittest: any
   streamers:
     git: https://github.com/0xor1/streamers
+dependency_overrides:
+    git:
+      url: git://github.com/paycoin-com/dart-snippets
+      ref: dart2
